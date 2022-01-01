@@ -1,0 +1,193 @@
+{
+  "main": {
+    "name": "Utkarsh Tyagi",
+    "description": "Software Engineer at Atlassian India",
+    "image": "profilepic.jpg",
+    "bio": "Skilled in Python, Machine Learning and Deep Learning with a demostrated history of projects and internships. Strong engineering professional working as a Software Engineer at Atlassian and undertaking Machine Learning research",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "utkarsh4430@gmail.com",
+    "phone": "+91-9560833299",
+    "github": "https://github.com/utkarsh4430",
+    "project": "https://github.com/utkarsh4430",
+    "address": {
+      "street": "New Delhi, India",
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "website": "https://github.com/utkarsh4430/website",
+    "resumedownload": "https://drive.google.com/file/d/12tfEPInmI_xmm1mtsYdBFXt4OeQ8THoa/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/utkarsh.tyagi4430/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/utkarsh4430",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/utkarsh-4430/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/youty4430",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/utkarsh4430",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Delhi Technological University",
+        "degree": "Bachelors of Technology in Computer Engineering",
+        "graduated": "CGPA: 8.69/10",
+        "description": ""
+      },
+      {
+        "school": "Apeejay School, Pitampura",
+        "degree": "High School",
+        "graduated": "91.8%",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Atlassian India LLP",
+        "title": "Software Engineer",
+        "years": "July 2021 – Present",
+        "predescription": "JIRA Issue Create: ",
+        "description": "Worked on the modernization of the legacy issue-create experience and implemented instrumentation to monitor and measure the level of the product’s performance and improve reliability",
+        "predescription2": "Impact: ",
+        "description2": "Achieved 99.996% frontend reliability and scaled the experience for over 100k customers with more than 1M issues created every month. Improved performance TTI from 3.9s to 1.5s using modern technology stack",
+        "predescription3": "Development: ",
+        "description3": "Utilised React and GraphQL for a scalable experience with Jest and Applitools for unit and AI-powered visual tests"
+      },
+      {
+        "company": "Atlassian India LLP",
+        "title": "Software Engineer Intern",
+        "years": "Jan 2021 – June 2021",
+        "predescription": "JIRA Configure Fields: ",
+        "description": "Identified the limitations for improvements and bottlenecks in the existing legacy implementation of the API and proposed revamping. Utilized this performant API to develop the user interface. Developed a google chrome extension for smart links discovery to help in the onboarding experience",
+        "predescription2": "Impact: ",
+        "description2": "Reduced the latency of modal load by 95.57% by avoiding redundant server-side database queries and scaled to 30k customers. Shipped the chrome extension 32k links and won the regional company hackathon",
+        "predescription3": "Development: ",
+        "description3": "Used React and GraphQL for improved user experience and Java Spring Boot for backend API performance improvements"
+      },
+      {
+        "company": "Samsung R&D Institute Bangalore",
+        "title": "Machine Learning Intern",
+        "years": "May 2020 – July 2020",
+        "predescription": "Automatic Speech Recognition: ",
+        "description": "Worked with the voice intelligence team of Samsung to improve Bixby’s wakeup word detection. Researched keyword spotting techniques using deep learning and built a vocabulary independent, lightweight keyword spotter using LSTM and Connectionist Temporal Classification",
+        "predescription2": "Impact: ",
+        "description2": "Utilised 100,000 audio samples to achieve 93.6% true acceptance and false acceptance of 3.53 per hour to further the research of migrating Bixby from traditional Hidden Markov models",
+        "predescription3": "Development: ",
+        "description3": "Deep neural network models were designed and trained in a multi GPU environment using the TensorFlow framework in Python."
+      },
+      {
+        "company": "Samsung Innovation Lab",
+        "title": "Research Intern",
+        "years": "Feb 2020 – Jan 2021",
+        "predescription": "Research: ",
+        "description": "Developed an AI-powered mobile camera-based application to calculate sustained attention span using candle flame test. Targeted and researched ADHD impacted and healthy children to help improve their focus by yogic exercises",
+        "predescription2": "Impact: ",
+        "description2": "Conducted the experiment with 11 participants and recorded an average sustained attention span increase of 3.3% within 10 days",
+        "predescription3": "Development: ",
+        "description3": "Designed the architecture and developed the server-side processing using Python, Dlib, and OpenCV. Used object localization techniques to isolate the eyes and track the gaze of the participants"
+      }
+    ],
+    "research": [
+      {
+        "title": "A Hybrid Approach of ANN-GWO Technique for Intrusion Detection",
+        "status": "Published",
+        "site": "IEEE Xplore",
+        "cite": "A. Sharma and U. Tyagi, \"A Hybrid Approach of ANN-GWO Technique for Intrusion Detection,\" 2021 International Conference on Recent Trends on Electronics, Information, Communication & Technology (RTEICT), 2021, pp. 467-472, doi: 10.1109/RTEICT52294.2021.9573800.",
+        "link": "https://ieeexplore.ieee.org/abstract/document/9573800"
+      },
+      {
+        "title": "Fighting Media Hyper-partisanship With Modern Language Representation Models",
+        "status": "In Press",
+        "site": "Springer",
+        "cite": "Kumar A., Tyagi U., Grover T., Ghosh A. (2021) ”Fighting Media Hyper-partisanship With Modern Language Representation Models” 2021 International Conference on Data Analytics and Management ICDAM 2021",
+        "link": "https://drive.google.com/file/d/1zB7Urhv7_A8MA2swj4jd_-pbVhO3T12l/view?usp=sharing"
+      },
+      {
+        "title": "mFlameGaze: Mobile-Based Flame Gazing for Improving Sustained Attention",
+        "status": "Published",
+        "site": "IEEE Xplore",
+        "cite": "D. Sethia et al., \"mFlameGaze: Mobile-Based Flame Gazing for Improving Sustained Attention,\" 2021 International Conference on COMmunication Systems & NETworkS (COMSNETS), 2021, pp. 638-643, doi: 10.1109/COMSNETS51098.2021.9352815.",
+        "link": "https://ieeexplore.ieee.org/document/9352815"
+      },
+      {
+        "title": "Classifying Question Papers with Bloom’s Taxonomy Using Machine Learning Techniques",
+        "status": "Published",
+        "site": "Springer",
+        "cite": "Jain M., Beniwal R., Ghosh A., Grover T., Tyagi U. (2019) Classifying Question Papers with Bloom’s Taxonomy Using Machine Learning Techniques. In: Singh M., Gupta P., Tyagi V., Flusser J., Ören T., Kashyap R. (eds) Advances in Computing and Data Sciences. ICACDS 2019. Communications in Computer and Information Science, vol 1046. Springer, Singapore. https://doi.org/10.1007/978-981-13-9942-8_38",
+        "link": "https://doi.org/10.1007/978-981-13-9942-8_38"
+      }
+    ],
+    "skills": [
+      {
+        "name": "C++",
+        "level": "90%"
+      },
+      {
+        "name": "Python",
+        "level": "85%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "75%"
+      },
+      {
+        "name": "TensorFlow",
+        "level": "85%"
+      },
+      {
+        "name": "Pytorch",
+        "level": "75%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "75%"
+      },
+      {
+        "name": "JAVA",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "01.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "02.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "03.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      }
+    ]
+  }
+}
