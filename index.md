@@ -20,7 +20,7 @@ Email ID: [utkarsh4430@gmail.com](mailto:utkarsh4430@gmail.com)
 <table>
 <col width="100px">
 <col width="630px">
-  <tr><td><b>December 2022:</b></td><td>Paper on implicit hate speech accepted in AAAI 2023 workshop Defactify - 2!</td></tr>
+  <tr><td><b>December 2022:</b></td><td>Paper on implicit hate speech detection in online conversations accepted in AAAI 2023 workshop Defactify - 2!</td></tr>
   <tr><td><b>October 2022:</b></td><td>2 papers submitted to IEEE ICASSP 2022! Pre-print and code now available!</td></tr>
   <tr><td><b>September 2022:</b></td><td>2 patents filed with Atlassian on incident management in multi-party communication channels!</td></tr>
   <tr><td><b>September 2022:</b></td><td>Promoted to Software Engineer 2 at Atlassian!</td></tr>
