@@ -11,7 +11,7 @@ Previously I have interned in the Voice Intelligence team at [Samsung Research I
 
 I graduated with a Bachelor's in Computer Science and Engineering at [Delhi Technological University](https://www.dtu.ac.in/) in 2021. I maintain a list of my publications and research implementations under the [Research]({{ site.url }}/research) tab. I am always open to collaborations and please feel free to drop a mail!
 
-CV / Resume: [link]({{ site.url }}/assets/Utkarsh_resume.pdf)
+CV / Resume: [link]({{ site.url }}/assets/Utkarsh_resume.pdf)  
 Email ID: [utkarsh4430@gmail.com](mailto:utkarsh4430@gmail.com)
 
 #### Updates
