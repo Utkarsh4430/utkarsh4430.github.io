@@ -12,6 +12,16 @@ I am excited to see what multiple modalities together can offer (speech, text an
 
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=RLjKaTwAAAAJ&view_op=list_works&authuser=1&sortby=pubdate)
 
+### **Patents**
+
+Apparatuses, methods, and computer program products for generating and selectively outputting abstractive context summaries for multi-party communication channels  
+*U.S. Patent Application No. 17/936,705*  
+**Patent-pending**  
+
+Apparatuses, methods, and computer program products for generating an abstractive context summary scheduling interface configured for scheduling and outputting abstractive context summaries for multi-party communication channels  
+*U.S. Patent Application No. 17/936,695*  
+**Patent-pending**  
+
 ### **Papers**
 ##### **(names in italics indicate main contributor or equal contribution)**
 
