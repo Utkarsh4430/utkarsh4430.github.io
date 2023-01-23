@@ -5,7 +5,7 @@ layout: page
 
 <img style="float: right; width: 35%; padding: 6px;" src=" {{ site.url }}assets/utkarsh.jpg">
 
-My name is Utkarsh Tyagi. I am currently working as a Software Engineer II at [Atlassian, India](https://www.atlassian.com/).Beyond Software Engineering, I am interested in Speech and Language Processing. I am working as a part time researcher at [MIDAS Labs @ IIIT Delhi](http://midas.iiitd.edu.in/) under the supervision of [Prof. Rajiv Ratn Shah](https://www.iiitd.ac.in/rajivratn). Here, I am working on problems like disfluency detection and complex named entity recognition. I am also collaborating with the [Gamma Lab](https://gamma.umd.edu/) at the University of Maryland, College Park under the guidance of [Prof. Dinesh Manocha](https://scholar.google.com/citations?user=X08l_4IAAAAJ&hl=en).
+My name is Utkarsh Tyagi. I am currently working as a Software Engineer II at [Atlassian, India](https://www.atlassian.com/). Beyond Software Engineering, I am interested in Speech and Language Processing. I am working as a part time researcher at [MIDAS Labs @ IIIT Delhi](http://midas.iiitd.edu.in/) under the supervision of [Prof. Rajiv Ratn Shah](https://www.iiitd.ac.in/rajivratn). Here, I am working on problems like disfluency detection and complex named entity recognition. I am also collaborating with the [Gamma Lab](https://gamma.umd.edu/) at the University of Maryland, College Park under the guidance of [Prof. Dinesh Manocha](https://scholar.google.com/citations?user=X08l_4IAAAAJ&hl=en).
 
 Previously I have interned in the Voice Intelligence team at [Samsung Research Institute, Bangalore](https://research.samsung.com/sri-b). Here I worked on improving Bixby’s wakeup word detection and built a  vocabulary-independent, lightweight keyword spotter. I have also worked as a research intern at the [Samsung Innovation Lab, DTU](https://sites.google.com/view/sdarldtu/home?authuser=1&pli=1). Here, I developed an AI-powered mobile camera-based application to calculate sustained attention span using a candle flame test.
 
@@ -20,6 +20,7 @@ Email ID: [utkarsh4430@gmail.com](mailto:utkarsh4430@gmail.com)
 <table>
 <col width="100px">
 <col width="630px">
+  <tr><td><b>January 2023:</b></td><td>Paper on ACLM: Selective-Denoising based Data Augmentation for Low-Resource Complex NER submitted to ACL 2023!</td></tr>
   <tr><td><b>December 2022:</b></td><td>Paper on implicit hate speech detection in online conversations accepted in De-factify 2 @ AAAI 2023!</td></tr>
   <tr><td><b>October 2022:</b></td><td>2 papers submitted to IEEE ICASSP 2023! Pre-print and code now available!</td></tr>
   <tr><td><b>September 2022:</b></td><td>2 patents filed with Atlassian on incident management in multi-party communication channels!</td></tr>
