@@ -16,11 +16,11 @@ I am excited to see what multiple modalities together can offer (speech, text an
 
 Apparatuses, methods, and computer program products for generating and selectively outputting abstractive context summaries for multi-party communication channels \
 *U.S. Patent Application No. 17/936,705* \
-**Patent-pending** \
+**Patent-pending**
 
 Apparatuses, methods, and computer program products for generating an abstractive context summary scheduling interface configured for scheduling and outputting abstractive context summaries for multi-party communication channels \
 *U.S. Patent Application No. 17/936,695* \
-**Patent-pending** \
+**Patent-pending**
 
 ### **Papers**
 ##### **(names in italics indicate main contributor or equal contribution)**
@@ -28,47 +28,47 @@ Apparatuses, methods, and computer program products for generating an abstractiv
 M-MELD: A Multilingual Multi-Party Dataset for Emotion Recognition in Conversations \
 *Sreyan Ghosh*, *S Ramaneswaran*, *Utkarsh Tyagi*, Harshvardhan Srivastava, Samden Lepcha, S Sakshi, Dinesh Manocha \
 [arXiv](http://arxiv.org/abs/2203.16799) [Code](https://github.com/Sreyan88/M-MELD) \
-**Under review at Interspeech 2023** \
+**Under review at Interspeech 2023**
 
 CoSyn: Detecting Implicit Hate Speech in Online Conversations Using a Context Synergized Hyperbolic Network \
 *Sreyan Ghosh*, *Manan Suri*, *Purva Chiniya*, *Utkarsh Tyagi*, *Sonal Kumar*, Dinesh Manocha \
 [Link](https://arxiv.org/abs/2303.03387) \
-**Under review at IJCAI 2023 Social Track** \
+**Under review at IJCAI 2023 Social Track**
 
 BioAug: Conditional Generation based Data Augmentation for Low-Resource Biomedical NER \
 *Sreyan Ghosh*, *Utkarsh Tyagi*, Sonal Kumar, Manan Suri, Dinesh Manocha \
-**Under review at SIGIR 2023** \
+**Under review at SIGIR 2023**
 
 ACLM: Selective-Denoising based Data Augmentation for Low-Resource Complex NER \
 *Sreyan Ghosh*, *Utkarsh Tyagi*, Sonal Kumar, Manan Suri, Dinesh Manocha \
-**Under review at ACL 2023** \
+**Under review at ACL 2023**
 
 Context matters! Implicit hate speech classification using a Social and Conversational-Context synergized network \
 *Sreyan Ghosh*, *Manan Suri*, *Purva Chiniya*, *Utkarsh Tyagi*, *Rajiv Ratn Shah* \
 [Link](https://drive.google.com/file/d/1L0-sD6X0ZiPfqE-_SV4sNQ63J17PKrHC/view) \
-**Accepted at De-factify 2 @ AAAI 2023** \
+**Accepted at De-factify 2 @ AAAI 2023**
 
 <!-- A novel multimodal dynamic fusion network for disfluency detection in spoken utterances \
 *Sreyan Ghosh*, *Utkarsh Tyagi*, *Sonal Kumar*, *Manan Suri*, Rajiv Ratn Shah \
 [arXiv](https://arxiv.org/abs/2211.14700) [Code](https://github.com/Sreyan88/M-MELD) \
-**Under review at ICASSP 2023** \ -->
+**Under review at ICASSP 2023** -->
 
 Fighting Media Hyper-partisanship With Modern Language Representation Models \
 *Akshi Kumar*, *Utkarsh Tyagi*, *Tanish Grover*, *Utkarsh Tyagi* \
 [Link](https://doi.org/10.1007/978-981-13-9942-8_38) \
-**Published in ICDAM 2021** \
+**Published in ICDAM 2021**
 
 mFlameGaze: Mobile-Based Flame Gazing for Improving Sustained Attention \
 *Divyashikha Sethia*, *Anil Singh Parihar*, *Aheli Ghosh*, *Tanish Grover*, *Deep Diwakar*, *Shivam Kumar*, *Utkarsh Tyagi* \
 [Link](https://ieeexplore.ieee.org/document/9352815) [Code](https://github.com/Tanish0019/GazeTracking) \
-**Published in COMSNETS 2021** \
+**Published in COMSNETS 2021**
 
 Hybrid Approach of ANN-GWO Technique for Intrusion Detection \
 *Anushka Sharma*, *Utkarsh Tyagi* \
 [Link](https://ieeexplore.ieee.org/abstract/document/9573800) \
-**Published in RTEICT 2021** \
+**Published in RTEICT 2021**
 
 Classifying Question Papers with Bloom’s Taxonomy Using Machine Learning Techniques \
 *Minni Jain*, *Rohit Beniwal*, *Aheli Ghosh*, *Tanish Grover*, *Utkarsh Tyagi* \
 [Link](https://doi.org/10.1007/978-981-13-9942-8_38) \
-**Published in ICACDS 2019** \
+**Published in ICACDS 2019**
