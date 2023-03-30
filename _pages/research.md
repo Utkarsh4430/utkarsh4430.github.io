@@ -35,17 +35,8 @@ CoSyn: Detecting Implicit Hate Speech in Online Conversations Using a Context Sy
 [Link](https://arxiv.org/abs/2303.03387) \
 **Under review at IJCAI 2023 Social Track**
 
-BioAug: Conditional Generation based Data Augmentation for Low-Resource Biomedical NER \
-*Sreyan Ghosh*, *Utkarsh Tyagi*, Sonal Kumar, Manan Suri, Dinesh Manocha \
-**Under review at SIGIR 2023**
-
-ACLM: Selective-Denoising based Data Augmentation for Low-Resource Complex NER \
-*Sreyan Ghosh*, *Utkarsh Tyagi*, Sonal Kumar, Manan Suri, Dinesh Manocha \
-**Under review at ACL 2023**
-
 Context matters! Implicit hate speech classification using a Social and Conversational-Context synergized network \
 *Sreyan Ghosh*, *Manan Suri*, *Purva Chiniya*, *Utkarsh Tyagi*, *Rajiv Ratn Shah* \
-[Link](https://drive.google.com/file/d/1L0-sD6X0ZiPfqE-_SV4sNQ63J17PKrHC/view) \
 **Accepted at De-factify 2 @ AAAI 2023**
 
 <!-- A novel multimodal dynamic fusion network for disfluency detection in spoken utterances \
