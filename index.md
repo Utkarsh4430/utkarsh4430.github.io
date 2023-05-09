@@ -20,6 +20,8 @@ Email ID: [utkarsh4430@gmail.com](mailto:utkarsh4430@gmail.com)
 <table>
 <col width="100px">
 <col width="630px">
+  <tr><td><b>April 2023:</b></td><td>Our paper was accepted to ACL 2023!</td></tr>
+  <tr><td><b>April 2023:</b></td><td>Our paper was accepted to SIGIR 2023!</td></tr>
   <tr><td><b>March 2023:</b></td><td>2 papers submitted to Interspeech 2023!</td></tr>
   <tr><td><b>March 2023:</b></td><td>Paper on implicit hate speech detection submitted to IJCAI 2023!</td></tr>
   <tr><td><b>February 2023:</b></td><td>Paper submitted to SIGIR 2023!</td></tr>
