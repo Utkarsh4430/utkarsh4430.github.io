@@ -12,7 +12,7 @@ Previously I have interned in the Voice Intelligence team at [Samsung Research I
 I graduated with a Bachelor's in Computer Science and Engineering at [Delhi Technological University](https://www.dtu.ac.in/) in 2021. I maintain a list of my publications and research implementations under the [Research]({{ site.url }}/research) tab. I am always open to collaborations and please feel free to drop a mail!
 
 CV / Resume: [link]({{ site.url }}/assets/Utkarsh_resume.pdf)<br />
-Email ID: [utkarsh4430@gmail.com](mailto:utkarsh4430@gmail.com)
+Email ID: [utkarsht@umd.edu](mailto:utkarsht@umd.edu), [utkarsh4430@gmail.com](mailto:utkarsh4430@gmail.com)
 
 #### Updates
 
@@ -20,6 +20,7 @@ Email ID: [utkarsh4430@gmail.com](mailto:utkarsh4430@gmail.com)
 <table>
 <col width="100px">
 <col width="630px">
+  <tr><td><b>May 2023:</b></td><td>Our paper was accepted to Interspeech 2023!</td></tr>
   <tr><td><b>April 2023:</b></td><td>Our paper was accepted to ACL 2023!</td></tr>
   <tr><td><b>April 2023:</b></td><td>Our paper was accepted to SIGIR 2023!</td></tr>
   <tr><td><b>March 2023:</b></td><td>2 papers submitted to Interspeech 2023!</td></tr>
