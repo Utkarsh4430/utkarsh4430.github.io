@@ -20,6 +20,7 @@ Email ID: [utkarsht@umd.edu](mailto:utkarsht@umd.edu), [utkarsh4430@gmail.com](m
 <table>
 <col width="100px">
 <col width="630px">
+  <tr><td><b>July 2023:</b></td><td>Our paper was accepted to ICCV 2023!</td></tr>
   <tr><td><b>May 2023:</b></td><td>3 papers submitted to EMNLP 2023!</td></tr>
   <tr><td><b>May 2023:</b></td><td>Our paper was accepted to Interspeech 2023!</td></tr>
   <tr><td><b>April 2023:</b></td><td>Our paper was accepted to ACL 2023!</td></tr>
