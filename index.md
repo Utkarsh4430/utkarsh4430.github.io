@@ -20,7 +20,9 @@ Email ID: [utkarsht@umd.edu](mailto:utkarsht@umd.edu), [utkarsh4430@gmail.com](m
 <table>
 <col width="100px">
 <col width="630px">
-  <tr><td><b>October 2023:</b></td><td>2 papers accepted to EMNLP 2024!</td></tr>
+  <tr><td><b>December 2023:</b></td><td>Submitted 4 papers to NAACL 2024!</td></tr>
+  <tr><td><b>December 2023:</b></td><td>Attended EMNLP in-person in Singapore!</td></tr>
+  <tr><td><b>October 2023:</b></td><td>2 papers accepted to EMNLP 2023!</td></tr>
   <tr><td><b>September 2023:</b></td><td>1 paper submitted to ICLR 2024!</td></tr>
   <tr><td><b>August 2023:</b></td><td>Started my MS in CS at the University of Maryland, College Park!</td></tr>
   <tr><td><b>July 2023:</b></td><td>1 paper submitted to AAAI 2023!</td></tr>
