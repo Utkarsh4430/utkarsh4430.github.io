@@ -117,10 +117,8 @@ intro = f'''
             reinforcement learning, and speech-to-speech models.</p>
           <p>I work on steerable speech dialogue, rubric-based learning, and evaluations of
             how models reason across audio, images, and video.</p>
-          <p>Recent work includes {link(PAPERS["pow3r"]["url"], "POW3R", event("paper_click", paper="pow3r"))},
-            {link(PAPERS["steerduplex"]["url"], "SteerDuplex", event("paper_click", paper="steerduplex"))}, and
-            {link(PAPERS["audiomc"]["url"], "Audio MultiChallenge", event("paper_click", paper="audiomc"))},
-            which received the ACL 2026 Best Resource Paper Award.</p>
+          <p>I’m particularly interested in designing better learning signals and building models
+            that remain reliable across natural, multi-turn interactions.</p>
           <p>Previously, I completed my M.S. in Computer Science at the University of Maryland,
             where I worked with {link("https://gamma.umd.edu/", "GAMMA Lab")},
             Prof. Dinesh Manocha, and Prof. Ramani Duraiswami.
