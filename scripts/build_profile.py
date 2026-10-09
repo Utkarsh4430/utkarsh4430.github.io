@@ -62,7 +62,7 @@ def page(title, active, description, body, route):
   <link rel="canonical" href="{canonical}">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/profile.css">
-{analytics_tag()}
+{'<script defer src="/assets/updates.js"></script>' if active == 'intro' else ''}{analytics_tag()}
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -139,9 +139,15 @@ intro = f'''
         </div>
       </section>
       <section class="news-section" aria-labelledby="news-title">
-        <div class="section-heading"><h2 id="news-title">Updates</h2><span class="quiet">Scroll for earlier updates</span></div>
-        <div class="news-scroll" tabindex="0" role="region" aria-label="All updates, newest first. Scroll for earlier updates.">
-          {news_rows(DATA["news"])}
+        <div class="section-heading"><h2 id="news-title">Updates</h2><span class="quiet">Newest first</span></div>
+        <div class="news-window">
+          <div class="news-scroll" id="updates-timeline" tabindex="0" role="region" aria-label="All updates, newest first. Scroll for earlier updates.">
+            {news_rows(DATA["news"])}
+          </div>
+        </div>
+        <div class="news-controls">
+          <span class="quiet">{DATA["news"][-1]["month"][:4]}–{DATA["news"][0]["month"][:4]} · {len(DATA["news"])} updates</span>
+          <button class="news-more" type="button" aria-controls="updates-timeline" hidden>Older updates ↓</button>
         </div>
       </section>
 '''
