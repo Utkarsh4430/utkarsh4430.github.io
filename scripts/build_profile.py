@@ -139,15 +139,17 @@ intro = f'''
         </div>
       </section>
       <section class="news-section" aria-labelledby="news-title">
-        <div class="section-heading"><h2 id="news-title">Updates</h2><span class="quiet">Newest first</span></div>
+        <div class="section-heading"><h2 id="news-title">Updates</h2><span class="quiet">{DATA["news"][-1]["month"][:4]}–{DATA["news"][0]["month"][:4]}</span></div>
         <div class="news-window">
           <div class="news-scroll" id="updates-timeline" tabindex="0" role="region" aria-label="All updates, newest first. Scroll for earlier updates.">
             {news_rows(DATA["news"])}
           </div>
-        </div>
-        <div class="news-controls">
-          <span class="quiet">{DATA["news"][-1]["month"][:4]}–{DATA["news"][0]["month"][:4]} · {len(DATA["news"])} updates</span>
-          <button class="news-more" type="button" aria-controls="updates-timeline" hidden>Older updates ↓</button>
+          <div class="news-controls">
+            <button class="news-more" type="button" aria-controls="updates-timeline" hidden>
+              <span class="news-more-label">Explore earlier updates</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m5 8 5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
         </div>
       </section>
 '''

@@ -53,7 +53,7 @@ the document editor before replacing it. Refresh `assets/cv-page-1.webp` and
 ## Files and compatibility
 
 - `assets/profile.css`: shared design and responsive layouts.
-- `assets/updates.js`: shows scroll fades and an “Older updates” control; the full timeline still works without JavaScript.
+- `assets/updates.js`: shows scroll fades and an “Explore earlier updates” control; the full timeline still works without JavaScript.
 - `index.html`, `publications/index.html`, `cv/index.html`: generated pages; no JavaScript required.
 - `/about/`, `/research/`, `/open_source/`, `/others/`: redirects for earlier navigation links.
 - `visual/`: existing separate application, preserved.

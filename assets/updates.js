@@ -3,7 +3,8 @@
   const timeline = document.querySelector('.news-scroll');
   const frame = document.querySelector('.news-window');
   const button = document.querySelector('.news-more');
-  if (!timeline || !frame || !button) return;
+  const label = document.querySelector('.news-more-label');
+  if (!timeline || !frame || !button || !label) return;
 
   const update = () => {
     const end = timeline.scrollHeight - timeline.clientHeight;
@@ -11,7 +12,7 @@
     frame.classList.toggle('is-scrolled', timeline.scrollTop > 2);
     frame.classList.toggle('at-end', atEnd);
     button.hidden = end <= 2;
-    button.textContent = atEnd ? 'Back to latest ↑' : 'Older updates ↓';
+    label.textContent = atEnd ? 'Back to latest' : 'Explore earlier updates';
   };
   button.addEventListener('click', () => {
     const atEnd = timeline.scrollTop >= timeline.scrollHeight - timeline.clientHeight - 2;
