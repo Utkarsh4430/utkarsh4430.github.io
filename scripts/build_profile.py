@@ -2,6 +2,7 @@
 """Generate the three GitHub Pages profile pages using only Python's standard library."""
 from datetime import datetime
 from html import escape
+from hashlib import sha256
 import json
 from pathlib import Path
 import re
@@ -13,6 +14,8 @@ PAPERS = {p["id"]: p for p in DATA["publications"]}
 SCHOLAR = "https://scholar.google.com/citations?user=RLjKaTwAAAAJ&hl=en"
 CV = "/assets/Utkarsh_resume.pdf"
 UPDATED_MONTH = datetime.strptime(DATA["updated"], "%B %d, %Y").strftime("%B %Y")
+CSS_VERSION = sha256((ROOT / "assets/profile.css").read_bytes()).hexdigest()[:10]
+UPDATES_VERSION = sha256((ROOT / "assets/updates.js").read_bytes()).hexdigest()[:10]
 
 
 def analytics_tag():
@@ -41,6 +44,7 @@ def link(url, label, attrs=""):
 
 
 def page(title, active, description, body, route):
+    updates_script = f'<script defer src="/assets/updates.js?v={UPDATES_VERSION}"></script>' if active == 'intro' else ''
     nav = "".join(link(path, label, ' aria-current="page"' if key == active else "")
                   for key, label, path in [("intro", "Intro", "/"),
                                            ("publications", "Publications", "/publications/"),
@@ -61,8 +65,8 @@ def page(title, active, description, body, route):
   <meta property="og:image" content="https://utkarsh4430.github.io/assets/IMG_4207.jpeg">
   <link rel="canonical" href="{canonical}">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/profile.css">
-{'<script defer src="/assets/updates.js"></script>' if active == 'intro' else ''}{analytics_tag()}
+  <link rel="stylesheet" href="/assets/profile.css?v={CSS_VERSION}">
+{updates_script}{analytics_tag()}
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
