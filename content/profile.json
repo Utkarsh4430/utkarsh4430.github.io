@@ -1,0 +1,141 @@
+{
+  "updated": "October 9, 2026",
+  "analytics": {
+    "provider": "umami",
+    "website_id": "f0a4cfdb-aec1-459b-b45b-6a5b1b0f7012"
+  },
+  "publications": [
+    {
+      "id": "steerduplex", "year": 2026,
+      "title": "SteerDuplex: Steerable Duplex Speech Dialogue Models",
+      "url": "https://arxiv.org/abs/2609.12623",
+      "venue": "NeurIPS 2026 Workshop RTCA | Under submission ARR",
+      "featured": true, "name": "SteerDuplex", "topic": "Speech-to-speech",
+      "description": "Steerable full-duplex speech dialogue through supervised fine-tuning and two-stage reinforcement learning, with control over vocal delivery and conversational behavior.",
+      "image": "steerduplex.svg", "alt": "SteerDuplex training pipeline, from supervised fine-tuning to continuity and listener-feedback reinforcement learning.",
+      "figure_source": "https://arxiv.org/html/2609.12623v1/fig2_training_pipeline.svg", "figure_label": "Figure 2"
+    },
+    {
+      "id": "pow3r", "year": 2026,
+      "title": "Not Every Rubric Teaches Equally: Policy-Aware Rubric Rewards for RLVR",
+      "url": "https://arxiv.org/abs/2605.20164", "venue": "NeurIPS 2026",
+      "featured": true, "name": "POW3R", "topic": "Reinforcement learning",
+      "description": "Policy-aware rubric rewards prioritize criteria that distinguish a model’s current responses, reaching comparable performance in 2.5–4× fewer training steps.",
+      "image": "pow3r.svg", "alt": "POW3R rubric audit contrasting human importance weights with the learning signal available to the current policy.",
+      "figure_source": "https://arxiv.org/html/2605.20164v1/rubric_audit.svg", "figure_label": "Figure 1"
+    },
+    {
+      "id": "hss", "year": 2026,
+      "title": "Humanity’s Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
+      "url": "https://arxiv.org/abs/2610.08966", "venue": "ICLR 2027 (under submission)",
+      "featured": true, "name": "Humanity’s Sixth Sense", "topic": "Multimodal reasoning",
+      "description": "A benchmark for intuitive visual reasoning across temporal, spatial, social, and abstract tasks, examining the gap between multimodal models and human judgment.",
+      "image": "hss.png", "alt": "Example questions from the temporal, spatial, social, and abstract reasoning domains in Humanity’s Sixth Sense.",
+      "figure_source": "https://arxiv.org/html/2610.08966v2/examples_main.png", "figure_label": "Figure 2"
+    },
+    {
+      "id": "rubric-dropout", "year": 2026,
+      "title": "Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL",
+      "url": "https://arxiv.org/abs/2608.11669", "venue": "ICLR 2027 (under submission)",
+      "featured": true, "name": "Rubric Dropout", "topic": "Post-training",
+      "description": "Randomly masks rubric criteria during reinforcement learning to reduce overfitting to a fixed reward signal and mitigate reward hacking.",
+      "image": "rubric-dropout.png", "alt": "Diagram comparing conventional neuron dropout with criterion masking in Rubric Dropout.",
+      "figure_source": "https://arxiv.org/html/2608.11669v1/final.png", "figure_label": "Figure 1"
+    },
+    {
+      "id": "rgsd", "year": 2026,
+      "title": "Rubric-Guided Self-Distillation: Post-Training Without Rubric Verifiers",
+      "url": "https://arxiv.org/abs/2606.12507", "venue": "ICLR 2027 (under submission)",
+      "featured": true, "name": "Rubric-Guided Self-Distillation", "topic": "Post-training",
+      "description": "Distills a rubric-conditioned teacher into a prompt-only student using token-level feedback, removing external verifier calls from the training loop.",
+      "image": "rgsd.svg", "alt": "Method overview comparing judge-based GRPO with rubric-conditioned teacher-to-student distillation.",
+      "figure_source": "https://arxiv.org/html/2606.12507v1/method_overview.svg", "figure_label": "Figure 1"
+    },
+    {
+      "id": "audiomc", "year": 2026,
+      "title": "Audio MultiChallenge: A Multi-Turn Evaluation of Spoken Dialogue Systems on Natural Human Interaction",
+      "url": "https://aclanthology.org/2026.acl-long.1654/", "venue": "ACL 2026", "recognition": "Best Resource Paper Award",
+      "featured": true, "name": "Audio MultiChallenge", "topic": "Spoken dialogue evaluation",
+      "description": "Tests spoken dialogue systems on natural multi-turn interaction, including memory, instruction retention, self-coherence, and voice editing.",
+      "image": "audiomc.png", "alt": "Spoken dialogue examples covering memory, instruction retention, self-coherence, and voice editing in Audio MultiChallenge.",
+      "figure_source": "https://arxiv.org/html/2512.14865v1/axes_samples.png", "figure_label": "Figure 1"
+    },
+    {
+      "id": "beyond-seeing", "year": 2026,
+      "title": "Beyond Seeing: Evaluating Multimodal LLMs on Tool-Enabled Image Perception, Transformation, and Reasoning",
+      "url": "https://arxiv.org/abs/2510.12712", "venue": "EMNLP 2026"
+    },
+    {
+      "id": "scipredict", "year": 2026,
+      "title": "SciPredict: Can LLMs Predict the Outcomes of Scientific Experiments in Natural Sciences?",
+      "url": "https://arxiv.org/abs/2604.10718", "venue": "ICML 2026"
+    },
+    {
+      "id": "audio-hallucination", "year": 2026,
+      "title": "Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models",
+      "url": "https://arxiv.org/abs/2603.29263", "venue": "Interspeech 2026"
+    },
+    {
+      "id": "mmau", "year": 2025,
+      "title": "MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark",
+      "url": "https://openreview.net/forum?id=TeVAZXr3yv", "venue": "ICLR 2025", "recognition": "Spotlight"
+    },
+    {
+      "id": "vdgd", "year": 2025,
+      "title": "Visual Description Grounding Reduces Hallucinations and Boosts Reasoning in LVLMs",
+      "url": "https://openreview.net/forum?id=3PRvlT8b1R", "venue": "ICLR 2025"
+    },
+    {
+      "id": "prose", "year": 2025,
+      "title": "ProSE: Diffusion Priors for Speech Enhancement",
+      "url": "https://aclanthology.org/2025.naacl-long.619/", "venue": "NAACL 2025"
+    },
+    {
+      "id": "multivox", "year": 2025,
+      "title": "MULTIVOX: A Benchmark for Evaluating Voice Assistants for Multimodal Interactions",
+      "url": "https://aclanthology.org/2025.emnlp-main.1447/", "venue": "EMNLP 2025"
+    },
+    {
+      "id": "egoillusion", "year": 2025,
+      "title": "EGOILLUSION: Benchmarking Hallucinations in Egocentric Video Understanding",
+      "url": "https://aclanthology.org/2025.emnlp-main.1446/", "venue": "EMNLP 2025"
+    },
+    {
+      "id": "gama", "year": 2024,
+      "title": "GAMA: A Large Audio-Language Model with Advanced Audio Understanding and Complex Reasoning Abilities",
+      "url": "https://aclanthology.org/2024.emnlp-main.361/", "venue": "EMNLP 2024"
+    },
+    {
+      "id": "compa", "year": 2024,
+      "title": "CompA: Addressing the Gap in Compositional Reasoning in Audio-Language Models",
+      "url": "https://arxiv.org/abs/2310.08753", "venue": "ICLR 2024"
+    }
+  ],
+  "news": [
+    {"month": "2026-10", "text": "New paper: {hss}, a benchmark for intuitive visual reasoning in multimodal models."},
+    {"month": "2026-09", "text": "{pow3r} will appear at NeurIPS 2026. {steerduplex} will appear at the NeurIPS 2026 Workshop RTCA."},
+    {"month": "2026-08", "text": "{beyond-seeing} will appear at EMNLP 2026. Our new {rubric-dropout} paper is available."},
+    {"month": "2026-07", "text": "{audiomc} received the ACL 2026 Best Resource Paper Award, shared with my coauthors."},
+    {"month": "2026-06", "text": "{audio-hallucination} will appear at Interspeech 2026. Our new {rgsd} paper is available."},
+    {"month": "2026-04", "text": "{scipredict} will appear at ICML 2026, and {audiomc} at ACL 2026."},
+    {"month": "2025-12", "text": "Granted {patent}, on scheduling abstractive summaries for multi-party communication channels."},
+    {"month": "2025-08", "text": "{multivox} and {egoillusion} will appear at EMNLP 2025."},
+    {"month": "2025-06", "text": "Joined Scale AI as a Machine Learning Research Engineer, working on audio and multimodal AI."},
+    {"month": "2025-05", "text": "Completed my M.S. in Computer Science at the University of Maryland, College Park."},
+    {"month": "2025-02", "text": "{mmau} was selected for a Spotlight at ICLR 2025."},
+    {"month": "2025-01", "text": "{mmau} and {vdgd} will appear at ICLR 2025."},
+    {"month": "2024-08", "text": "Awarded a $7,000 NeuroPAC Fellowship at UMD/UMIACS for research on EEG-based brain–computer interaction using LLMs."},
+    {"month": "2024-03", "text": "One paper accepted to Interspeech 2024, two to ACL 2024, and two to NAACL 2024."},
+    {"month": "2024-01", "text": "{compa} accepted to ICLR 2024."},
+    {"month": "2023-12", "text": "Attended EMNLP in person in Singapore."},
+    {"month": "2023-10", "text": "Two papers accepted to EMNLP 2023."},
+    {"month": "2023-08", "text": "Started my M.S. in Computer Science at the University of Maryland, College Park."},
+    {"month": "2023-07", "text": "One paper accepted to ICCV 2023."},
+    {"month": "2023-05", "text": "One paper accepted to Interspeech 2023."},
+    {"month": "2023-04", "text": "One paper accepted to ACL 2023 and one to SIGIR 2023."},
+    {"month": "2022-12", "text": "Our work on implicit hate speech in online conversations was accepted to the De-Factify 2 workshop at AAAI 2023."},
+    {"month": "2022-09", "text": "Filed two patents with Atlassian on incident management in multi-party communication channels. Promoted to Software Engineer 2 and began collaborating with GAMMA Lab at the University of Maryland."},
+    {"month": "2022-03", "text": "Joined MIDAS Lab at IIIT Delhi."},
+    {"month": "2021-07", "text": "Joined Atlassian as a Software Engineer."}
+  ]
+}

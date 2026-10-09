@@ -1,23 +1,96 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audio &amp; Multimodal AI Research — Utkarsh Tyagi</title>
+  <meta name="description" content="Utkarsh Tyagi, Machine Learning Research Engineer at Scale AI. Audio and multimodal AI, speech dialogue, reinforcement learning, and post-training.">
+  <meta name="theme-color" content="#fbfaf8">
+  <meta property="og:title" content="Audio &amp; Multimodal AI Research — Utkarsh Tyagi">
+  <meta property="og:description" content="Utkarsh Tyagi, Machine Learning Research Engineer at Scale AI. Audio and multimodal AI, speech dialogue, reinforcement learning, and post-training.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://utkarsh4430.github.io/">
+  <meta property="og:image" content="https://utkarsh4430.github.io/assets/IMG_4207.jpeg">
+  <link rel="canonical" href="https://utkarsh4430.github.io/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/profile.css">
+<script defer src="https://cloud.umami.is/script.js" data-website-id="f0a4cfdb-aec1-459b-b45b-6a5b1b0f7012" data-domains="utkarsh4430.github.io" data-do-not-track="true" data-exclude-search="true" data-exclude-hash="true"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="shell">
+    <header class="site-header">
+      <a class="brand" href="/">Utkarsh Tyagi</a>
+      <nav class="site-nav" aria-label="Main navigation"><a href="/" aria-current="page">Intro</a><a href="/publications/">Publications</a><a href="/cv/">CV</a></nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="intro-title">
+        <div class="bio">
+          <p class="eyebrow">Audio &amp; multimodal AI · RL &amp; post-training</p>
+          <h1 id="intro-title">Utkarsh Tyagi</h1>
+          <p>I’m a <strong>Machine Learning Research Engineer at Scale AI</strong> in San Francisco.
+            My research focuses on audio and multimodal AI, with an emphasis on post-training,
+            reinforcement learning, and speech-to-speech models.</p>
+          <p>I work on steerable speech dialogue, rubric-based learning, and evaluations of
+            how models reason across audio, images, and video.</p>
+          <p>Recent work includes <a href="https://arxiv.org/abs/2605.20164" data-umami-event="paper_click" data-umami-event-paper="pow3r">POW3R</a>,
+            <a href="https://arxiv.org/abs/2609.12623" data-umami-event="paper_click" data-umami-event-paper="steerduplex">SteerDuplex</a>, and
+            <a href="https://aclanthology.org/2026.acl-long.1654/" data-umami-event="paper_click" data-umami-event-paper="audiomc">Audio MultiChallenge</a>,
+            which received the ACL 2026 Best Resource Paper Award.</p>
+          <p>Previously, I completed my M.S. in Computer Science at the University of Maryland,
+            where I worked with <a href="https://gamma.umd.edu/">GAMMA Lab</a>,
+            Prof. Dinesh Manocha, and Prof. Ramani Duraiswami.
+            I’ve also worked at Atlassian and Samsung.</p>
+          <div class="contact-links" aria-label="Contact and profiles">
+            <a href="mailto:utkarsht@umd.edu">Email</a>
+            <a href="https://scholar.google.com/citations?user=RLjKaTwAAAAJ&amp;hl=en" data-umami-event="scholar_click">Google Scholar</a>
+            <a href="https://www.linkedin.com/in/utkarsh4430/">LinkedIn</a>
+            <a href="https://github.com/Utkarsh4430">GitHub</a>
+          </div>
+          <ul class="interests" aria-label="Research interests">
+            <li>Speech &amp; audio</li><li>Multimodal reasoning</li><li>RL &amp; post-training</li>
+          </ul>
+        </div>
+        <div class="hero-photo">
+          <img class="portrait" src="/assets/IMG_4207.jpeg" alt="Utkarsh Tyagi" width="212" height="258">
+          <p class="portrait-caption">San Francisco, California</p>
+        </div>
+      </section>
+      <section class="news-section" aria-labelledby="news-title">
+        <div class="section-heading"><h2 id="news-title">Updates</h2><span class="quiet">Scroll for earlier updates</span></div>
+        <div class="news-scroll" tabindex="0" role="region" aria-label="All updates, newest first. Scroll for earlier updates.">
+          <ul class="news-list"><li class="news-item"><time datetime="2026-10">Oct 2026</time><p>New paper: <a href="https://arxiv.org/abs/2610.08966" data-umami-event="paper_click" data-umami-event-paper="hss">Humanity’s Sixth Sense</a>, a benchmark for intuitive visual reasoning in multimodal models.</p></li>
+<li class="news-item"><time datetime="2026-09">Sep 2026</time><p><a href="https://arxiv.org/abs/2605.20164" data-umami-event="paper_click" data-umami-event-paper="pow3r">POW3R</a> will appear at NeurIPS 2026. <a href="https://arxiv.org/abs/2609.12623" data-umami-event="paper_click" data-umami-event-paper="steerduplex">SteerDuplex</a> will appear at the NeurIPS 2026 Workshop RTCA.</p></li>
+<li class="news-item"><time datetime="2026-08">Aug 2026</time><p><a href="https://arxiv.org/abs/2510.12712" data-umami-event="paper_click" data-umami-event-paper="beyond-seeing">Beyond Seeing</a> will appear at EMNLP 2026. Our new <a href="https://arxiv.org/abs/2608.11669" data-umami-event="paper_click" data-umami-event-paper="rubric-dropout">Rubric Dropout</a> paper is available.</p></li>
+<li class="news-item"><time datetime="2026-07">Jul 2026</time><p><a href="https://aclanthology.org/2026.acl-long.1654/" data-umami-event="paper_click" data-umami-event-paper="audiomc">Audio MultiChallenge</a> received the ACL 2026 Best Resource Paper Award, shared with my coauthors.</p></li>
+<li class="news-item"><time datetime="2026-06">Jun 2026</time><p><a href="https://arxiv.org/abs/2603.29263" data-umami-event="paper_click" data-umami-event-paper="audio-hallucination">Audio Hallucination Attacks</a> will appear at Interspeech 2026. Our new <a href="https://arxiv.org/abs/2606.12507" data-umami-event="paper_click" data-umami-event-paper="rgsd">Rubric-Guided Self-Distillation</a> paper is available.</p></li>
+<li class="news-item"><time datetime="2026-04">Apr 2026</time><p><a href="https://arxiv.org/abs/2604.10718" data-umami-event="paper_click" data-umami-event-paper="scipredict">SciPredict</a> will appear at ICML 2026, and <a href="https://aclanthology.org/2026.acl-long.1654/" data-umami-event="paper_click" data-umami-event-paper="audiomc">Audio MultiChallenge</a> at ACL 2026.</p></li>
+<li class="news-item"><time datetime="2025-12">Dec 2025</time><p>Granted <a href="https://patents.google.com/patent/US12505292B2/en">U.S. Patent 12,505,292</a>, on scheduling abstractive summaries for multi-party communication channels.</p></li>
+<li class="news-item"><time datetime="2025-08">Aug 2025</time><p><a href="https://aclanthology.org/2025.emnlp-main.1447/" data-umami-event="paper_click" data-umami-event-paper="multivox">MULTIVOX</a> and <a href="https://aclanthology.org/2025.emnlp-main.1446/" data-umami-event="paper_click" data-umami-event-paper="egoillusion">EGOILLUSION</a> will appear at EMNLP 2025.</p></li>
+<li class="news-item"><time datetime="2025-06">Jun 2025</time><p>Joined Scale AI as a Machine Learning Research Engineer, working on audio and multimodal AI.</p></li>
+<li class="news-item"><time datetime="2025-05">May 2025</time><p>Completed my M.S. in Computer Science at the University of Maryland, College Park.</p></li>
+<li class="news-item"><time datetime="2025-02">Feb 2025</time><p><a href="https://openreview.net/forum?id=TeVAZXr3yv" data-umami-event="paper_click" data-umami-event-paper="mmau">MMAU</a> was selected for a Spotlight at ICLR 2025.</p></li>
+<li class="news-item"><time datetime="2025-01">Jan 2025</time><p><a href="https://openreview.net/forum?id=TeVAZXr3yv" data-umami-event="paper_click" data-umami-event-paper="mmau">MMAU</a> and <a href="https://openreview.net/forum?id=3PRvlT8b1R" data-umami-event="paper_click" data-umami-event-paper="vdgd">VDGD</a> will appear at ICLR 2025.</p></li>
+<li class="news-item"><time datetime="2024-08">Aug 2024</time><p>Awarded a $7,000 NeuroPAC Fellowship at UMD/UMIACS for research on EEG-based brain–computer interaction using LLMs.</p></li>
+<li class="news-item"><time datetime="2024-03">Mar 2024</time><p>One paper accepted to Interspeech 2024, two to ACL 2024, and two to NAACL 2024.</p></li>
+<li class="news-item"><time datetime="2024-01">Jan 2024</time><p><a href="https://arxiv.org/abs/2310.08753" data-umami-event="paper_click" data-umami-event-paper="compa">CompA</a> accepted to ICLR 2024.</p></li>
+<li class="news-item"><time datetime="2023-12">Dec 2023</time><p>Attended EMNLP in person in Singapore.</p></li>
+<li class="news-item"><time datetime="2023-10">Oct 2023</time><p>Two papers accepted to EMNLP 2023.</p></li>
+<li class="news-item"><time datetime="2023-08">Aug 2023</time><p>Started my M.S. in Computer Science at the University of Maryland, College Park.</p></li>
+<li class="news-item"><time datetime="2023-07">Jul 2023</time><p>One paper accepted to ICCV 2023.</p></li>
+<li class="news-item"><time datetime="2023-05">May 2023</time><p>One paper accepted to Interspeech 2023.</p></li>
+<li class="news-item"><time datetime="2023-04">Apr 2023</time><p>One paper accepted to ACL 2023 and one to SIGIR 2023.</p></li>
+<li class="news-item"><time datetime="2022-12">Dec 2022</time><p>Our work on implicit hate speech in online conversations was accepted to the De-Factify 2 workshop at AAAI 2023.</p></li>
+<li class="news-item"><time datetime="2022-09">Sep 2022</time><p>Filed two patents with Atlassian on incident management in multi-party communication channels. Promoted to Software Engineer 2 and began collaborating with GAMMA Lab at the University of Maryland.</p></li>
+<li class="news-item"><time datetime="2022-03">Mar 2022</time><p>Joined MIDAS Lab at IIIT Delhi.</p></li>
+<li class="news-item"><time datetime="2021-07">Jul 2021</time><p>Joined Atlassian as a Software Engineer.</p></li></ul>
+        </div>
+      </section>
+</main>
+    <footer class="site-footer">
+      <span>Utkarsh Tyagi · San Francisco</span>
+      <span>Updated October 2026 · <a href="mailto:utkarsht@umd.edu">Get in touch</a></span>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,184 @@
+% Utkarsh Tyagi -- research resume, updated October 9, 2026.
+% Adapted from the user's Overleaf main.tex, based on Jake Gutierrez / sb2nov.
+% Original source is preserved separately in work/overleaf-original/main.tex.
+% Self-contained source; compile with pdfLaTeX.
+% Publication submission statuses confirmed by the user on October 9, 2026.
+\documentclass[letterpaper,11pt]{article}
+\usepackage[margin=0.50in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{needspace}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\definecolor{linkblue}{HTML}{184C83}
+\definecolor{muted}{HTML}{555555}
+\hypersetup{colorlinks=true,urlcolor=linkblue,linkcolor=linkblue,
+  pdftitle={Utkarsh Tyagi -- Research Resume},pdfauthor={Utkarsh Tyagi}}
+\urlstyle{same}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\scriptsize\textcolor{muted}{Utkarsh Tyagi \enspace | \enspace \thepage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{18pt}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{0pt}
+\raggedright
+\raggedbottom
+\titleformat{\section}{\large\bfseries\scshape}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{5pt}
+\setlist[itemize]{leftmargin=12pt,label=\textbullet,topsep=3pt,
+  itemsep=2pt,parsep=0pt,partopsep=0pt}
+\newcommand{\role}[4]{%
+  \Needspace{4\baselineskip}%
+  \begin{tabularx}{\linewidth}{@{}Xr@{}}
+    \textbf{#1} & \small #2\\
+    \textit{#3} & \small\textit{#4}
+  \end{tabularx}\vspace{-1pt}}
+\newcommand{\pub}[3]{%
+  \item\href{#1}{#2}\par
+  {\small\textbf{#3}}}
+\newcommand{\skill}[2]{\textbf{#1:} #2\par\vspace{2pt}}
+
+\begin{document}
+\begin{center}
+  {\fontsize{24}{26}\selectfont\textbf{Utkarsh Tyagi}}\\[4pt]
+  {\small\textbf{Audio \& Multimodal AI \enspace | \enspace RL \& Post-training}}\\[4pt]
+  {\small +1 240 501 3163 \enspace | \enspace
+    \href{mailto:utkarsht@umd.edu}{utkarsht@umd.edu} \enspace | \enspace
+    \href{https://utkarsh4430.github.io}{utkarsh4430.github.io}\\[2pt]
+    \href{https://linkedin.com/in/utkarsh4430/}{LinkedIn} \enspace | \enspace
+    \href{https://scholar.google.com/citations?user=RLjKaTwAAAAJ&hl=en}{Google Scholar}}
+\end{center}
+\vspace{-8pt}
+\fontsize{10}{11.8}\selectfont
+
+\section{Current Research \& Experience}
+\role{Scale AI}{San Francisco, California}
+  {Machine Learning Research Engineer}{June 2025 -- Present}
+\begin{itemize}
+  \item Lead \textbf{audio and multimodal post-training} research spanning supervised fine-tuning, reinforcement learning, reward design, and evaluation for speech-to-speech and multimodal models.
+  \item Developed \textbf{SteerDuplex}: supervised fine-tuning and two-stage RL for steerable full-duplex speech dialogue, evaluating instruction following, vocal delivery, interruption handling, and response continuity.
+  \item Developed \textbf{POW3R (NeurIPS 2026)}, a policy-aware rubric reward method reaching comparable performance in \textbf{2.5--4$\times$ fewer training steps}; coauthored \textbf{Rubric Dropout} and \textbf{Rubric-Guided Self-Distillation}.
+  \item Coauthored \textbf{Audio MultiChallenge (ACL Best Resource Paper)}, \textbf{Humanity's Sixth Sense}, \textbf{Beyond Seeing}, and \textbf{SciPredict}, evaluating spoken dialogue, intuitive visual reasoning, visual tool use, and scientific prediction.
+  \item Own technical specifications, difficulty analysis, and quality standards for multimodal data programs; build annotation tooling and containerized evaluations for GUI grounding, agentic software engineering, and visual reasoning.
+\end{itemize}
+
+\section{Selected Publications}
+{\footnotesize Full publication list: \href{https://scholar.google.com/citations?user=RLjKaTwAAAAJ&hl=en}{Google Scholar}. Paper titles link to the manuscripts.}
+\begin{itemize}[itemsep=3pt,topsep=4pt]
+  % NeurIPS 2026 acceptance confirmed by the user on October 9, 2026.
+  \pub{https://arxiv.org/abs/2605.20164}
+    {Not Every Rubric Teaches Equally: Policy-Aware Rubric Rewards for RLVR}
+    {NeurIPS 2026}
+  \pub{https://arxiv.org/abs/2609.12623}
+    {SteerDuplex: Steerable Duplex Speech Dialogue Models}
+    {\href{https://rtcaneurips26.github.io/}{NeurIPS 2026 Workshop RTCA} \enspace | \enspace Under submission ARR}
+  \pub{https://arxiv.org/abs/2610.08966}
+    {Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models}
+    {ICLR 2027 (under submission)}
+  \pub{https://arxiv.org/abs/2608.11669}
+    {Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL}
+    {ICLR 2027 (under submission)}
+  \pub{https://arxiv.org/abs/2606.12507}
+    {Rubric-Guided Self-Distillation: Post-Training Without Rubric Verifiers}
+    {ICLR 2027 (under submission)}
+  \pub{https://aclanthology.org/2026.acl-long.1654/}
+    {Audio MultiChallenge: A Multi-Turn Evaluation of Spoken Dialogue Systems on Natural Human Interaction}
+    {ACL 2026 \enspace | \enspace Best Resource Paper Award}
+  \pub{https://arxiv.org/abs/2510.12712}
+    {Beyond Seeing: Evaluating Multimodal LLMs on Tool-Enabled Image Perception, Transformation, and Reasoning}
+    {EMNLP 2026}
+  \pub{https://arxiv.org/abs/2604.10718}
+    {SciPredict: Can LLMs Predict the Outcomes of Scientific Experiments in Natural Sciences?}
+    {ICML 2026}
+  \pub{https://arxiv.org/abs/2603.29263}
+    {Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models}
+    {Interspeech 2026}
+  \pub{https://openreview.net/forum?id=TeVAZXr3yv}
+    {MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark}
+    {ICLR 2025 \enspace | \enspace Spotlight}
+  \pub{https://openreview.net/forum?id=3PRvlT8b1R}
+    {VDGD: Mitigating LVLM Hallucinations in Cognitive Prompts by Bridging the Visual Perception Gap}
+    {ICLR 2025}
+  \pub{https://aclanthology.org/2025.naacl-long.619/}
+    {ProSE: Diffusion Priors for Speech Enhancement}
+    {NAACL 2025}
+  \pub{https://aclanthology.org/2024.emnlp-main.361/}
+    {GAMA: A Large Audio-Language Model with Advanced Audio Understanding and Complex Reasoning Abilities}
+    {EMNLP 2024}
+  \pub{https://arxiv.org/abs/2310.08753}
+    {CompA: Addressing the Gap in Compositional Reasoning in Audio-Language Models}
+    {ICLR 2024}
+\end{itemize}
+
+\newpage
+\section{Additional Industry Experience}
+\role{Samsung SARC/ACL}{San Jose, California}
+  {Research Intern -- Efficient GenAI Inference}{May 2024 -- August 2024}
+\begin{itemize}
+  \item Optimized LLMs for resource-constrained devices, improving inference latency and memory footprint; fine-tuned models and developed retrieval-augmented generation tools over internal documentation.
+\end{itemize}
+\role{Atlassian India LLP}{Bangalore, India}
+  {Software Development Engineer 2}{July 2021 -- August 2023}
+\begin{itemize}
+  \item Modernized Jira's issue-create experience, achieving \textbf{99.996\% frontend reliability} for over \textbf{250,000 customers} and \textbf{2 million issues daily}; reduced time to interactive from \textbf{3.9s to 1.2s}.
+\end{itemize}
+\role{Atlassian India LLP}{Bangalore, India}
+  {Software Engineer Intern}{January 2021 -- June 2021}
+\begin{itemize}
+  \item Reworked legacy APIs and eliminated redundant database queries, reducing modal-load latency by \textbf{95.57\%} and supporting a user interface serving \textbf{1 million customers}.
+\end{itemize}
+\role{Samsung R\&D Institute Bangalore}{Bangalore, India}
+  {Research Intern -- Speech AI}{May 2020 -- July 2020}
+\begin{itemize}
+  \item Researched Bixby wake-word detection and developed an efficient, vocabulary-independent on-device keyword spotter using \textbf{LSTM-CTC}.
+\end{itemize}
+
+\section{Academic Research Experience}
+% Research Assistant end date confirmed by the user on October 9, 2026.
+\role{GAMMA Lab, University of Maryland}{College Park, Maryland}
+  {Research Assistant}{August 2022 -- May 2025}
+\begin{itemize}
+  \item Researched audio-language models, multimodal reasoning, speech enhancement, and low-resource learning with \textbf{Prof. Dinesh Manocha} and \textbf{Prof. Ramani Duraiswami}; work includes \textbf{MMAU}, \textbf{GAMA}, \textbf{CompA}, and \textbf{ProSE}, plus synthetic data augmentation for speech and NLP.
+\end{itemize}
+\role{Multimodal Digital Media Analysis Lab, IIITD}{Delhi, India}
+  {Machine Learning Researcher}{April 2022 -- March 2023}
+\begin{itemize}
+  \item Worked with \textbf{Dr. Rajiv Ratn Shah} on multilingual automatic speech scoring for low-resource Indian languages and context-aware implicit hate-speech detection; published at the \textbf{De-Factify workshop, AAAI 2023}.
+\end{itemize}
+
+\section{Education}
+\role{University of Maryland, College Park}{College Park, Maryland}
+  {M.S. in Computer Science \enspace | \enspace GPA: 3.9/4.0}{August 2023 -- May 2025}
+\par\vspace{4pt}
+\role{Delhi Technological University}{Delhi, India}
+  {B.Tech in Computer Science \enspace | \enspace GPA: 8.7/10; major GPA: 9.05/10}{2017 -- 2021}
+
+\section{Technical Skills}
+\skill{Research}{Speech-to-speech; full-duplex dialogue; audio-language models; multimodal reasoning; benchmark design.}
+\skill{Post-training}{SFT; reinforcement learning (GRPO/RLVR); rubric rewards; self-distillation; reward-hacking analysis.}
+\skill{Languages \& Frameworks}{Python, C++, JavaScript, Java, SQL; PyTorch, TensorFlow, scikit-learn, React.}
+\skill{Research Engineering}{Evaluation harnesses; annotation tools; containerized environments; rubric grading; data quality.}
+
+\section{Awards \& Professional Service}
+\begin{itemize}
+  \item \textbf{ACL 2026 Best Resource Paper Award} -- Audio MultiChallenge (shared with coauthors).
+  \item \textbf{\$7,000 NeuroPAC Fellowship}, UMD/UMIACS -- research on EEG-based brain-computer interaction using LLMs.
+  \item \textbf{Peer reviewer:} NeurIPS 2026; ICLR 2025--2026; ACL Rolling Review 2024--2026 (including recent cycles); ICASSP 2025 and 2027 (current cycle); WASPAA 2025; EMNLP 2024.
+  \item \textbf{Atlassian internal hackathon People's Choice Awards}, 2021 and 2022.
+\end{itemize}
+
+\section{Patents}
+% Three distinct invention families; related continuation filings are not counted separately.
+% Statuses checked against public patent records on October 9, 2026.
+\begin{itemize}
+  \item \href{https://patents.google.com/patent/US12505292B2/en}{\textbf{U.S. Patent 12,505,292 B2}} -- scheduling abstractive summaries for multi-party communication channels; co-inventor, granted December 23, 2025.
+  \item \href{https://patents.google.com/patent/US20240111959A1/en}{\textbf{U.S. Application 17/936,705 (US20240111959A1)}} -- generating and selectively outputting abstractive summaries; co-inventor, patent pending.
+  \item \href{https://patents.google.com/patent/US20250110981A1/en}{\textbf{U.S. Application 18/477,176 (US20250110981A1)}} -- configuring and transmitting abstractive summaries to collaboration applications; co-inventor, patent pending.
+\end{itemize}
+\end{document}
