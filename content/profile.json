@@ -1,5 +1,5 @@
 {
-  "updated": "October 9, 2026",
+  "updated": "October 30, 2026",
   "analytics": {
     "provider": "umami",
     "website_id": "f0a4cfdb-aec1-459b-b45b-6a5b1b0f7012"
@@ -25,6 +25,11 @@
       "figure_source": "https://arxiv.org/html/2605.20164v1/rubric_audit.svg", "figure_label": "Figure 1"
     },
     {
+      "id": "rsi-forge", "year": 2026,
+      "title": "RSI-Forge: From Research Papers to Environments for Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2610.09426", "venue": "ICLR 2027 (under submission)"
+    },
+    {
       "id": "hss", "year": 2026,
       "title": "Humanity’s Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
       "url": "https://arxiv.org/abs/2610.08966", "venue": "ICLR 2027 (under submission)",
@@ -35,10 +40,10 @@
     },
     {
       "id": "rubric-dropout", "year": 2026,
-      "title": "Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL",
+      "title": "Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-Based RL",
       "url": "https://arxiv.org/abs/2608.11669", "venue": "ICLR 2027 (under submission)",
       "featured": true, "name": "Rubric Dropout", "topic": "Post-training",
-      "description": "Randomly masks rubric criteria during reinforcement learning to reduce overfitting to a fixed reward signal and mitigate reward hacking.",
+      "description": "Resamples rubric criteria during reinforcement learning to mitigate reward hacking; Block Dropout jointly masks correlated criteria to reduce reward leakage.",
       "image": "rubric-dropout.png", "alt": "Diagram comparing conventional neuron dropout with criterion masking in Rubric Dropout.",
       "figure_source": "https://arxiv.org/html/2608.11669v1/final.png", "figure_label": "Figure 1"
     },
@@ -63,7 +68,7 @@
     {
       "id": "beyond-seeing", "year": 2026,
       "title": "Beyond Seeing: Evaluating Multimodal LLMs on Tool-Enabled Image Perception, Transformation, and Reasoning",
-      "url": "https://arxiv.org/abs/2510.12712", "venue": "EMNLP 2026"
+      "url": "https://aclanthology.org/2026.emnlp-main.1711/", "venue": "EMNLP 2026"
     },
     {
       "id": "scipredict", "year": 2026,
@@ -112,6 +117,9 @@
     }
   ],
   "news": [
+    {"month": "2026-10", "text": "Contributing to {rsi-bench} as a verified reviewer, with task selection for multimodal and infrastructure research."},
+    {"month": "2026-10", "text": "New paper: {rsi-forge}, turning research papers into executable environments for recursive self-improvement."},
+    {"month": "2026-10", "text": "Updated {rubric-dropout} manuscript with Block Dropout and expanded reward-hacking analysis. {beyond-seeing} is now published in the EMNLP 2026 proceedings."},
     {"month": "2026-10", "text": "New paper: {hss}, a benchmark for intuitive visual reasoning in multimodal models."},
     {"month": "2026-09", "text": "{pow3r} will appear at NeurIPS 2026. {steerduplex} will appear at the NeurIPS 2026 Workshop RTCA."},
     {"month": "2026-08", "text": "{beyond-seeing} will appear at EMNLP 2026. Our new {rubric-dropout} paper is available."},

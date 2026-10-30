@@ -1,4 +1,4 @@
-% Utkarsh Tyagi -- research resume, updated October 9, 2026.
+% Utkarsh Tyagi -- research resume, updated October 30, 2026.
 % Adapted from the user's Overleaf main.tex, based on Jake Gutierrez / sb2nov.
 % Original source is preserved separately in work/overleaf-original/main.tex.
 % Self-contained source; compile with pdfLaTeX.
@@ -29,7 +29,7 @@
 \setlength{\tabcolsep}{0pt}
 \raggedright
 \raggedbottom
-\titleformat{\section}{\large\bfseries\scshape}{}{0em}{}[\titlerule]
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
 \titlespacing*{\section}{0pt}{8pt}{5pt}
 \setlist[itemize]{leftmargin=12pt,label=\textbullet,topsep=3pt,
   itemsep=2pt,parsep=0pt,partopsep=0pt}
@@ -62,27 +62,31 @@
   {Machine Learning Research Engineer}{June 2025 -- Present}
 \begin{itemize}
   \item Lead \textbf{audio and multimodal post-training} research spanning supervised fine-tuning, reinforcement learning, reward design, and evaluation for speech-to-speech and multimodal models.
-  \item Developed \textbf{SteerDuplex}: supervised fine-tuning and two-stage RL for steerable full-duplex speech dialogue, evaluating instruction following, vocal delivery, interruption handling, and response continuity.
+  \item Developed \textbf{SteerDuplex}: SFT and two-stage RL for steerable full-duplex speech dialogue; improved audio-steering average pass rate by \textbf{44.5 percentage points} over the strongest evaluated open baseline.
   \item Developed \textbf{POW3R (NeurIPS 2026)}, a policy-aware rubric reward method reaching comparable performance in \textbf{2.5--4$\times$ fewer training steps}; coauthored \textbf{Rubric Dropout} and \textbf{Rubric-Guided Self-Distillation}.
   \item Coauthored \textbf{Audio MultiChallenge (ACL Best Resource Paper)}, \textbf{Humanity's Sixth Sense}, \textbf{Beyond Seeing}, and \textbf{SciPredict}, evaluating spoken dialogue, intuitive visual reasoning, visual tool use, and scientific prediction.
-  \item Own technical specifications, difficulty analysis, and quality standards for multimodal data programs; build annotation tooling and containerized evaluations for GUI grounding, agentic software engineering, and visual reasoning.
+  \item \textbf{RSI Bench verified reviewer}: select multimodal and infrastructure tasks; strengthen evaluation protocols for video inference, speculative decoding, KV-cache pruning, and LLM routing.
+  \item Coauthored \textbf{RSI-Forge}, a pipeline turning papers into \textbf{210 executable research environments across 18 fields}, including 90 independently reviewed by domain experts.
+  \item Define technical specifications, difficulty analysis, and quality standards for multimodal data programs; build annotation tooling and containerized evaluations for GUI grounding, agentic software engineering, and visual reasoning.
 \end{itemize}
 
 \section{Selected Publications}
 {\footnotesize Full publication list: \href{https://scholar.google.com/citations?user=RLjKaTwAAAAJ&hl=en}{Google Scholar}. Paper titles link to the manuscripts.}
-\begin{itemize}[itemsep=3pt,topsep=4pt]
-  % NeurIPS 2026 acceptance confirmed by the user on October 9, 2026.
-  \pub{https://arxiv.org/abs/2605.20164}
-    {Not Every Rubric Teaches Equally: Policy-Aware Rubric Rewards for RLVR}
-    {NeurIPS 2026}
+\begin{itemize}[itemsep=1pt,topsep=4pt]
   \pub{https://arxiv.org/abs/2609.12623}
     {SteerDuplex: Steerable Duplex Speech Dialogue Models}
     {\href{https://rtcaneurips26.github.io/}{NeurIPS 2026 Workshop RTCA} \enspace | \enspace Under submission ARR}
+  \pub{https://arxiv.org/abs/2605.20164}
+    {Not Every Rubric Teaches Equally: Policy-Aware Rubric Rewards for RLVR}
+    {NeurIPS 2026}
+  \pub{https://arxiv.org/abs/2610.09426}
+    {RSI-Forge: From Research Papers to Environments for Recursive Self-Improvement}
+    {ICLR 2027 (under submission)}
   \pub{https://arxiv.org/abs/2610.08966}
     {Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models}
     {ICLR 2027 (under submission)}
   \pub{https://arxiv.org/abs/2608.11669}
-    {Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL}
+    {Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-Based RL}
     {ICLR 2027 (under submission)}
   \pub{https://arxiv.org/abs/2606.12507}
     {Rubric-Guided Self-Distillation: Post-Training Without Rubric Verifiers}
@@ -90,7 +94,7 @@
   \pub{https://aclanthology.org/2026.acl-long.1654/}
     {Audio MultiChallenge: A Multi-Turn Evaluation of Spoken Dialogue Systems on Natural Human Interaction}
     {ACL 2026 \enspace | \enspace Best Resource Paper Award}
-  \pub{https://arxiv.org/abs/2510.12712}
+  \pub{https://aclanthology.org/2026.emnlp-main.1711/}
     {Beyond Seeing: Evaluating Multimodal LLMs on Tool-Enabled Image Perception, Transformation, and Reasoning}
     {EMNLP 2026}
   \pub{https://arxiv.org/abs/2604.10718}

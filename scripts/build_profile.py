@@ -12,7 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / "content/profile.json").read_text())
 PAPERS = {p["id"]: p for p in DATA["publications"]}
 SCHOLAR = "https://scholar.google.com/citations?user=RLjKaTwAAAAJ&hl=en"
-CV = "/assets/Utkarsh_resume.pdf"
+CV_VERSION = sha256((ROOT / "assets/Utkarsh_resume.pdf").read_bytes()).hexdigest()[:10]
+CV = f"/assets/Utkarsh_resume.pdf?v={CV_VERSION}"
 UPDATED_MONTH = datetime.strptime(DATA["updated"], "%B %d, %Y").strftime("%B %Y")
 CSS_VERSION = sha256((ROOT / "assets/profile.css").read_bytes()).hexdigest()[:10]
 UPDATES_VERSION = sha256((ROOT / "assets/updates.js").read_bytes()).hexdigest()[:10]
@@ -89,7 +90,9 @@ def page(title, active, description, body, route):
 def news_text(text):
     result = escape(text)
     for ref in re.findall(r"\{([^}]+)\}", text):
-        if ref == "patent":
+        if ref == "rsi-bench":
+            anchor = link("https://rsi-benchmark.com/", "RSI Bench")
+        elif ref == "patent":
             anchor = link("https://patents.google.com/patent/US12505292B2/en", "U.S. Patent 12,505,292")
         else:
             paper = PAPERS[ref]
@@ -121,8 +124,10 @@ intro = f'''
             reinforcement learning, and speech-to-speech models.</p>
           <p>I work on steerable speech dialogue, rubric-based learning, and evaluations of
             how models reason across audio, images, and video.</p>
-          <p>I’m particularly interested in designing better learning signals and building models
-            that remain reliable across natural, multi-turn interactions.</p>
+          <p>I also contribute to {link("https://rsi-benchmark.com/people", "RSI Bench")} as a verified reviewer,
+            with task selection for multimodal and infrastructure research. I coauthored
+            {link(PAPERS["rsi-forge"]["url"], "RSI-Forge", event("paper_click", paper="rsi-forge"))},
+            which turns research papers into executable environments for self-improving agents.</p>
           <p>Previously, I completed my M.S. in Computer Science at the University of Maryland,
             where I worked with {link("https://gamma.umd.edu/", "GAMMA Lab")},
             Prof. Dinesh Manocha, and Prof. Ramani Duraiswami.
@@ -199,7 +204,7 @@ for year in sorted({p["year"] for p in DATA["publications"]}, reverse=True):
 publications = f'''
       <div class="page-intro">
         <p class="eyebrow">Research</p><h1>Publications</h1>
-        <p>Recent work on speech dialogue, multimodal reasoning, and learning from rubric feedback.</p>
+        <p>Recent work on speech dialogue, multimodal reasoning, rubric feedback, and self-improving agents.</p>
       </div>
       <section aria-labelledby="featured-title">
         <div class="section-heading"><h2 id="featured-title">Featured work</h2><span class="quiet">Figures from the papers</span></div>
@@ -225,10 +230,10 @@ cv = f'''
       </div>
       <figure class="cv-preview" aria-label="Preview of the current two-page CV">
         <div class="cv-page"><a href="{CV}" aria-label="Open the full CV PDF"{event("cv_open")}>
-          <img src="/assets/cv-page-1.webp" width="1600" height="2071" alt="CV page 1: current research at Scale AI and selected publications.">
+          <img src="/assets/cv-page-1.webp?v={CV_VERSION}" width="1600" height="2071" alt="CV page 1: current research at Scale AI and selected publications.">
         </a></div>
         <div class="cv-page"><a href="{CV}" aria-label="Open the full CV PDF"{event("cv_open")}>
-          <img src="/assets/cv-page-2.webp" width="1600" height="2071" alt="CV page 2: additional experience, education, technical skills, awards, service, and patents." loading="lazy">
+          <img src="/assets/cv-page-2.webp?v={CV_VERSION}" width="1600" height="2071" alt="CV page 2: additional experience, education, technical skills, awards, service, and patents." loading="lazy">
         </a></div>
         <figcaption>For selectable text and publication links, {link(CV, "open the PDF", event("cv_open"))}.</figcaption>
       </figure>
@@ -236,7 +241,7 @@ cv = f'''
 
 for path, title, active, description, body, route in [
     ("index.html", "Audio & Multimodal AI Research", "intro", "Utkarsh Tyagi, Machine Learning Research Engineer at Scale AI. Audio and multimodal AI, speech dialogue, reinforcement learning, and post-training.", intro, "/"),
-    ("publications/index.html", "Publications", "publications", "Selected research by Utkarsh Tyagi, including SteerDuplex, POW3R, Humanity’s Sixth Sense, Rubric Dropout, and Audio MultiChallenge.", publications, "/publications/"),
+    ("publications/index.html", "Publications", "publications", "Selected research by Utkarsh Tyagi, including RSI-Forge, SteerDuplex, POW3R, Humanity’s Sixth Sense, Rubric Dropout, and Audio MultiChallenge.", publications, "/publications/"),
     ("cv/index.html", "CV", "cv", "Utkarsh Tyagi’s current CV: research, publications, professional experience, skills, and service.", cv, "/cv/")
 ]:
     dest = ROOT / path

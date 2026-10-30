@@ -62,3 +62,12 @@ the document editor before replacing it. Refresh `assets/cv-page-1.webp` and
 Recent acceptance announcements use the month of the decision notification; older announcements
 retain the months from the original website. Submission statuses reflect the author's confirmation.
 No email contents or private account information are stored in the website content.
+
+## Research update provenance (October 30, 2026)
+
+- Added [RSI-Forge](https://arxiv.org/abs/2610.09426), released October 7, 2026; Utkarsh is a coauthor. Its 210 environments across 18 fields are team results. Its ICLR 2027 submission status was confirmed by the author on October 30, 2026.
+- Added the [RSI Bench reviewer credit](https://rsi-benchmark.com/people). Multimodal and infrastructure task selection was confirmed by the author.
+- Public technical reviews substantiate the experience summary: [video inference optimization](https://github.com/scaleapi/rsi-benchmark/pull/30#pullrequestreview-5710011301), [speculative decoding](https://github.com/scaleapi/rsi-benchmark/pull/49#pullrequestreview-5634237650), [KV-cache pruning](https://github.com/scaleapi/rsi-benchmark/pull/14#pullrequestreview-5556859968), and [cross-domain LLM routing](https://github.com/scaleapi/rsi-benchmark/pull/71#pullrequestreview-5514554872). Reviews use the author's `utkarsh-scale` work account and, in some earlier entries, `Utkarsh4430`.
+- Updated [Rubric Dropout](https://arxiv.org/abs/2608.11669) to its October 21 title and expanded method description; retained the original figure with its version-specific provenance.
+- Updated [Beyond Seeing](https://aclanthology.org/2026.emnlp-main.1711/) to its published EMNLP proceedings URL.
+- Google Scholar required a CAPTCHA during this check; recent releases were cross-checked with the [arXiv author listing](https://arxiv.org/search/?searchtype=author&query=Tyagi%2C+Utkarsh&abstracts=show&order=-announced_date_first&size=50). No new award was added. Existing author-confirmed submission and acceptance statuses were preserved.
