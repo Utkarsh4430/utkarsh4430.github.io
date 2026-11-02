@@ -71,3 +71,10 @@ No email contents or private account information are stored in the website conte
 - Updated [Rubric Dropout](https://arxiv.org/abs/2608.11669) to its October 21 title and expanded method description; retained the original figure with its version-specific provenance.
 - Updated [Beyond Seeing](https://aclanthology.org/2026.emnlp-main.1711/) to its published EMNLP proceedings URL.
 - Google Scholar required a CAPTCHA during this check; recent releases were cross-checked with the [arXiv author listing](https://arxiv.org/search/?searchtype=author&query=Tyagi%2C+Utkarsh&abstracts=show&order=-announced_date_first&size=50). No new award was added. Existing author-confirmed submission and acceptance statuses were preserved.
+
+## Profile positioning (November 1, 2026)
+
+The website introduction and resume headline use Audio & Multimodal AI as the broad research area.
+Experience bullets retain the specific SFT, reinforcement learning, post-training, and evaluation work.
+This wording follows the author's requested positioning; it introduces no pre-training, architecture,
+or large-scale training-run claims. Publication order and submission statuses are unchanged.

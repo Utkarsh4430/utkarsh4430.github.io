@@ -117,13 +117,13 @@ def news_rows(items):
 intro = f'''
       <section class="hero" aria-labelledby="intro-title">
         <div class="bio">
-          <p class="eyebrow">Audio &amp; multimodal AI · RL &amp; post-training</p>
+          <p class="eyebrow">Audio &amp; multimodal AI</p>
           <h1 id="intro-title">Utkarsh Tyagi</h1>
           <p>I’m a <strong>Machine Learning Research Engineer at Scale AI</strong> in San Francisco.
-            My research focuses on audio and multimodal AI, with an emphasis on post-training,
-            reinforcement learning, and speech-to-speech models.</p>
-          <p>I work on steerable speech dialogue, rubric-based learning, and evaluations of
-            how models reason across audio, images, and video.</p>
+            My research focuses on audio and multimodal AI, including speech-to-speech systems,
+            audio-language models, and multimodal reasoning.</p>
+          <p>I work on supervised fine-tuning, reinforcement learning, and model evaluation,
+            with recent research on steerable speech dialogue and rubric-based post-training.</p>
           <p>I also contribute to {link("https://rsi-benchmark.com/people", "RSI Bench")} as a verified reviewer,
             with task selection for multimodal and infrastructure research. I coauthored
             {link(PAPERS["rsi-forge"]["url"], "RSI-Forge", event("paper_click", paper="rsi-forge"))},
@@ -204,7 +204,7 @@ for year in sorted({p["year"] for p in DATA["publications"]}, reverse=True):
 publications = f'''
       <div class="page-intro">
         <p class="eyebrow">Research</p><h1>Publications</h1>
-        <p>Recent work on speech dialogue, multimodal reasoning, rubric feedback, and self-improving agents.</p>
+        <p>Research across audio and multimodal AI, including speech dialogue, reinforcement learning, evaluation, and self-improving agents.</p>
       </div>
       <section aria-labelledby="featured-title">
         <div class="section-heading"><h2 id="featured-title">Featured work</h2><span class="quiet">Figures from the papers</span></div>
@@ -240,7 +240,7 @@ cv = f'''
 '''
 
 for path, title, active, description, body, route in [
-    ("index.html", "Audio & Multimodal AI Research", "intro", "Utkarsh Tyagi, Machine Learning Research Engineer at Scale AI. Audio and multimodal AI, speech dialogue, reinforcement learning, and post-training.", intro, "/"),
+    ("index.html", "Audio & Multimodal AI Research", "intro", "Utkarsh Tyagi, Machine Learning Research Engineer at Scale AI. Audio and multimodal AI research: speech-to-speech systems, audio-language models, multimodal reasoning, reinforcement learning, and evaluation.", intro, "/"),
     ("publications/index.html", "Publications", "publications", "Selected research by Utkarsh Tyagi, including RSI-Forge, SteerDuplex, POW3R, Humanity’s Sixth Sense, Rubric Dropout, and Audio MultiChallenge.", publications, "/publications/"),
     ("cv/index.html", "CV", "cv", "Utkarsh Tyagi’s current CV: research, publications, professional experience, skills, and service.", cv, "/cv/")
 ]:
